@@ -13,11 +13,13 @@ export default function Product(props: { product: IProduct }) {
       if (result) {
         setIsLiked(true)
       }
-    }
-    const result = await sendUnLikeToServer()
+    } else {
+      const result = await sendUnLikeToServer()
       if (result) {
         setIsLiked(false)
       }
+    }
+
   }
 
   return (

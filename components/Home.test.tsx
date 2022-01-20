@@ -13,6 +13,7 @@ test('Home Snapshot Testing', () => {
   expect(tree).toMatchSnapshot()
 })
 
+
 test('Home DOM Testing', () => {
   const { container } = render(
     <Home />

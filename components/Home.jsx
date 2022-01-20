@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>Tesing</h1>
+        <h1>Tesing 3</h1>
         <button id='decrease-btn' className={styles.button} onClick={handleDecrease}>-</button>
         <h1 id="value">{value}</h1>
         <button id='increase-btn' className={styles.button} onClick={handleIncrease}>+</button>

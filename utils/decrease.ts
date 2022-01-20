@@ -1,5 +1,8 @@
 const decrease = (currentValue: number) => {
-  if (currentValue === 0) return 0
+  if (currentValue === 0) {
+    //
+    return 0
+  }
   return currentValue - 1
 }
 
